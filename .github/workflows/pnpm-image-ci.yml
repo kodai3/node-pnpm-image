@@ -30,7 +30,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:node-20-9.12.0
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pnpm:node-22-10.7.0
 
       - name: Build and push latest version
         uses: docker/build-push-action@v6

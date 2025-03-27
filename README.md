@@ -6,7 +6,7 @@ You can download the image from [here](https://hub.docker.com/r/kodai3/pnpm)
 
 ```yaml
 steps:
- - name: "kodai3/pnpm:node-20-9.12.0"
+ - name: "kodai3/pnpm:node-22-10.7.0"
     entrypoint: pnpm
     args: ["install"]
 ```
